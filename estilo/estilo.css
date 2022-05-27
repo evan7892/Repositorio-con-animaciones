@@ -113,6 +113,10 @@ ul li:hover ul{
     margin-top: 25px;
     margin-bottom: 30px;
     position: static;
+    transition: width 2s;
+}
+.imagenNinos:hover{
+    width: 1150px;
 }
 .portadaNina{
     text-align: center;
