@@ -500,8 +500,32 @@ margin-top: 200px;
     padding: 10px;
 
 }
-.container-padre-img a {
-    text-decoration: none;
+.container-padre-img0 h5:hover{
+    background-color: pink;
+    border-radius: 30%;
+}
+.container-padre-img2 h5:hover{
+    background-color: rgb(173, 218, 255);
+    border-radius: 30%;
+}
+.container-padre-img3 h5:hover{
+    background-color: rgb(255, 173, 251);
+    border-radius: 30%;
+}
+.container-padre-img0 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-padre-img2 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+.container-padre-img3 h5{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
 }
 .container-padre-img0{
     grid-column: 2 / 4;
@@ -522,6 +546,7 @@ margin-top: 200px;
 .navbar-nav a{
     font-size: 20px;
     font-family: 'Radio Canada', sans-serif;
+    font-weight: normal;
 }
 
 @media only screen and (max-width:1000px){
