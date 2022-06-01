@@ -16,8 +16,10 @@ header{
 .titulo{
     font-family: 'Ranchers', cursive;
     color: rgb(255, 168, 214);
-    font-size: 2rem;
+    font-size: 3rem;
     margin-top: 5px;
+    margin-right: 80px;
+    margin-left: 10px;
 }
 .logo-layout{
     width: 100%;
@@ -45,7 +47,7 @@ header{
 }
 .carrito{
     width: 30px;
-    margin-top: 40px;
+    margin-top: 8px;
     margin-left: 15px;
     justify-content: center;
 }
@@ -95,9 +97,6 @@ ul li:hover ul{
 }
 .imagenLogo{
     margin-left: 16px;
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
 }
 .imagenLogoNina{
     margin-left: 50px;
@@ -298,7 +297,7 @@ footer{
     display: flex;
 }
 .row img{
-    width: 35px;
+    width: 60px;
     height: 36px;
 }
 .row label{
@@ -590,10 +589,8 @@ margin-top: 200px;
         font-size: 2rem;
         cursor: pointer; 
     }
-    .logo-layout .titulo {
+    .titulo {
         font-size: 3rem;
-        text-align: center;
-        grid-column: 2 / 10;
     }
     .navbar .menu{
         position: absolute;
@@ -650,7 +647,6 @@ margin-top: 200px;
     }
 }
 @media screen and (max-width: 1000px){
-
     .container-body{
         flex-wrap: wrap;
     }
@@ -691,26 +687,8 @@ margin-top: 200px;
         font-size: 2rem;
         cursor: pointer; 
     }
-    .logo-layout .titulo {
-        font-size: 3rem;
-        text-align: center;
-        grid-column: 2 / 10;
-    }
-    .navbar .menu{
-        position: absolute;
-        width: 65%;
-        height: 50vh;
-        display: grid;
-        align-items: center;
-        overflow: hidden;
-        transform: translateX(120%);
-        transition: all 1s;
-    }
-    .navbar .menu-toggle{
-        transform: translateX(-4%);  
-    }
-    body{
-        overflow-x: hidden;
+    .navbar-layout h1 {
+        font-size: 2.5rem;
     }
     .imagenLogo{
         display: none;
@@ -809,6 +787,9 @@ margin-top: 200px;
     .container-body{
         flex-wrap: wrap;
         margin-left: 30px;
+    }
+    .navbar-layout .titulo {
+        font-size: 1rem;
     }
     .subtituloNina{
         grid-column: 1 / 4;
