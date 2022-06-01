@@ -59,51 +59,56 @@
                     </div>
                   </nav>
             </section>
+        </section>
         </header>
     <main>
         <section class="formulario">
-        <fieldset>
-        <div>
-        <form action="">
-            <label for="name">Nombres</label>
-            <input type="text" name="name" placeholder="Juanito Andres">
-        </div>
-        <br>
-        <div>
-            <label for="apellido">Completar con los Apellidos</label>
-            <input type="text" name="apellido" placeholder="Perez Caceres">
-        </div>
-        <br>
-        <div>
-            <label for="email">Escribe tu Email</label>
-            <input type="email" name="email" placeholder="juanitoperez@gmail.com" required>
-        </div>
-        <br>
-        <div>
-            <label for="estadocivil">Estado Civil</label>
-            <select name="estadocivil" id="">
-            <option value="casado">Casado</option>
-            <option value="soltero">Soltero</option>
-            <option value="comprometido">Comprometido</option>
-            </select>
-        </div>
-        <br>
-        <div>
-            <label for="acepta">Deseas recibir el newsletter?</label>
-            <input type="checkbox" name="acepta" value="1" required>
-        </div><br>
-        <div>
-            <label for="comentarios">Escribe aqui tu comentario</label><br>
-            <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-        </div>
-        <br>
-        <div>
-            <input type="submit" value="Enviar Formulario">
-            <input type="reset" value="Borrar Formulario">
-        </div>
-        </form>
-    </section>
-    </fieldset>
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Dirección</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="col-12">
+              <label for="inputAddress2" class="form-label">Dirección 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+            </div>
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">Ciudad</label>
+              <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">Estado civil</label>
+              <select id="inputState" class="form-select">
+                <option selected>Escoger...</option>
+                <option>Casado</option>
+                <option>Soltero</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Codigo postal</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck">
+                <label class="form-check-label" for="gridCheck">
+                  Recuerdame siempre
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Entrar</button>
+            </div>
+          </form>
+        </section>
     </main>
     <footer>
         <div class="container-footer-all">

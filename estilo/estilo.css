@@ -13,6 +13,11 @@ header{
     display: flex;
     flex-direction: column;
 }
+.formulario{
+    margin: 50px;
+    background-color: rgb(121, 121, 121);
+    padding: 20px;
+}
 .titulo{
     font-family: 'Ranchers', cursive;
     color: rgb(255, 168, 214);
