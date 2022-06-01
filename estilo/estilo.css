@@ -193,7 +193,6 @@ ul li:hover ul{
 .tituloNino{
     font-family: 'Ranchers', cursive;
     color: rgb(116, 135, 245);
-    margin-top: 25px;
     font-size: 3rem;
     text-align: start;
     grid-column: 2 / 5;
