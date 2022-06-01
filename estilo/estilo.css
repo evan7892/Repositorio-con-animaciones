@@ -375,10 +375,10 @@ footer{
 }
 .container-all-nina2{
     grid-column: 3 / 6;
-    grid-row: 2 / 3;
+    grid-row: 1 / 3;
     display: flex;
     flex-direction: row;
-    margin-top: 175px;
+    margin-top: 530px;
 }
 .container-all-nina h4{
     margin-top: 20px;
@@ -405,13 +405,12 @@ footer{
 }
 .subtituloNina{
     grid-column: 1 / 10;
-    grid-row: 2 / 3;
+    grid-row: 1 / 2;
     text-align: center;
     font-family: 'Radio Canada', sans-serif;
-    margin-top: 120px;
+    margin-top: 530px;
     color: rgb(255, 96, 234);
     font-size: 1.4rem;
-    margin-left: 150px;
 }
 .portadaNina1{
     grid-column: 2 / 7;
@@ -420,14 +419,15 @@ footer{
 .portadaNina{
     margin: 10px;
     padding: 10px;
-    width: 400px;
+    width: 600px;
     justify-content: center;
     margin-top: 30px;
+
 }
 .container-all-nina{
     grid-column: 1 / 2;
-    grid-row: 2 / 4;
-    margin-top: 150px;
+    grid-row: 1 / 3;
+    margin-top: 500px;
 }
 .galeriaNino img{
     width: 180px;
@@ -562,7 +562,7 @@ margin-top: 200px;
     .layout-nina{
         display: grid;
         grid-template-columns: 20% 20% 20% 20% 20%;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
     .portadaNina1{
         grid-column: 2 / 5;
@@ -573,9 +573,10 @@ margin-top: 200px;
         font-size: 1rem;
         justify-content: flex-start;
         margin: 10%;
-        grid-row: 2 / 3;
+        grid-row: 1 / 3;
         grid-column: 2 / 5;
         text-align: center;
+        margin-top: 400px;
     }
     .portadaNina{
         width: 100%;
@@ -586,15 +587,16 @@ margin-top: 200px;
         flex-wrap: wrap;
     } 
     .container-all-nina{
-        grid-row: 2 / 6;
+        grid-row: 1 / 6;
         grid-column: 4 / 6;
         align-items: center;
+        margin-top: 600px;
 
     }
     .container-all-nina2{
-        grid-row: 2 / 6;
+        grid-row: 1 / 6;
         grid-column: 2 / 4;
-        margin-top: 175px;
+        margin-top: 630px;
         align-items: center;
         display: flex;
         flex-direction: column;
@@ -677,7 +679,7 @@ margin-top: 200px;
         justify-content: flex-start;
         margin: 10%;
         grid-column: 1 / 2;
-        grid-row: 2 / 3;
+        grid-row: 1 / 1;
     }
     .logo-layout{
         position: relative;
@@ -722,7 +724,7 @@ margin-top: 200px;
         padding: 15px;
     }
     .portadaNina1{
-        grid-column: 2 / 4;
+        grid-column: 2 / 3;
         margin-left: auto;
         margin-right: auto;
         width: 300px;
@@ -784,9 +786,9 @@ margin-top: 200px;
     .container-all-nina2{
         grid-row: 5 / 9;
         grid-column: 1 / 2;
-        margin-left: auto;
+        margin-left: 35px;
         margin-right: auto;
-        margin-top: 160px;
+        margin-top: 190px;
     }
     .container-body{
         flex-wrap: wrap;
@@ -800,8 +802,8 @@ margin-top: 200px;
         grid-row: 2 / 3;
     }
     .portadaNina1{
-        width: 250px;
-        grid-column: 1 / 2;
+        width: 200px;
+        grid-column: 1 / 1;
     }
     .tituloNino{
         grid-column: 2 / 9;
