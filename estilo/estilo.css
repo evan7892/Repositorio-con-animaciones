@@ -423,28 +423,7 @@ footer{
     text-align: center;
     background-color: antiquewhite;
 }
-.container-all-nina3 h4{
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    background-color: antiquewhite;
-}
-.container-all-nina4 h4{
-    margin-top: 20px;
-    padding: 10px;
-    text-align: center;
-    background-color: antiquewhite;
-}
-.container-all-nina h4 a{
-    text-decoration: none; color: rgb(147, 61, 245);
-}
 .container-all-nina2 h4 a{
-    text-decoration: none; color: rgb(147, 61, 245);
-}
-.container-all-nina3 h4 a{
-    text-decoration: none; color: rgb(147, 61, 245);
-}
-.container-all-nina4 h4 a{
     text-decoration: none; color: rgb(147, 61, 245);
 }
 .layout-nina{
@@ -609,7 +588,6 @@ margin-top: 200px;
 }
 .nav-item:hover{
     background-color: #7dd6fa;
-    border-radius: 20%;
 }
 .navbar-nav a{
     font-size: 20px;
@@ -665,20 +643,6 @@ margin-top: 200px;
         margin-top: 600px;
     }
     .container-all-nina2{
-        grid-row: 1 / 6;
-        grid-column: 2 / 4;
-        margin-top: 630px;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-    }
-    .container-all-nina3{
-        grid-row: 1 / 6;
-        grid-column: 4 / 6;
-        align-items: center;
-        margin-top: 600px;
-    }
-    .container-all-nina4{
         grid-row: 1 / 6;
         grid-column: 2 / 4;
         margin-top: 630px;
@@ -840,20 +804,6 @@ margin-top: 200px;
         margin-left: auto;
         margin-right: auto;
     }
-    .container-all-nina3{
-        grid-column: 2 / 4;
-        grid-row: 2 / 5;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 1000px;
-    }
-    .container-all-nina4{
-        grid-column: 2 / 4;
-        grid-row: 2 / 4;
-        margin-top: 50px;
-        margin-left: auto;
-        margin-right: auto;
-    }
     .imagenNinos{
         width: 300px;
         grid-column: 1 / 2;
@@ -894,19 +844,6 @@ margin-top: 200px;
         margin-right: auto;
         margin-top: 190px;
     }
-    .container-all-nina3{
-        grid-row: 2 / 4;
-        grid-column: 1 / 2;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .container-all-nina4{
-        grid-row: 3 / 7;
-        grid-column: 1 / 2;
-        margin-left: 35px;
-        margin-right: auto;
-        margin-top: 390px;
-    }
     .container-body{
         flex-wrap: wrap;
         margin-left: 30px;
@@ -921,6 +858,8 @@ margin-top: 200px;
     .subtituloUnisex{
         grid-column: 1 / 2;
         grid-row: 1 / 2;
+        margin-top: 500px;
+        margin-bottom: none;
     }
     .portadaNina1{
         width: 250px;
